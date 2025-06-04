@@ -21,6 +21,7 @@ export function Navbar() {
 		top: 0,
 		width: 0,
 		height: 0,
+		active: false,
 	});
 
 	// Function to update the background indicator bounds
@@ -31,6 +32,7 @@ export function Navbar() {
 			top: offsetTop,
 			width: offsetWidth,
 			height: offsetHeight,
+			active: true,
 		});
 	};
 
@@ -44,11 +46,9 @@ export function Navbar() {
 
 	// Handle mouse leave to hide the background indicator
 	const handleMouseLeave = () => {
-		// Keep position but set width to 0 to make it disappear in place
 		setBgIndicatorBounds((prev) => ({
 			...prev,
-			width: 0,
-			height: 0,
+			active: false,
 		}));
 	};
 
@@ -61,24 +61,25 @@ export function Navbar() {
 				<ul className="flex items-center space-x-2 relative">
 					{/* Background indicator */}
 					<motion.div
-						layoutId="backgroundIndicator"
-						className="absolute bg-white/10 backdrop-blur-sm rounded-full z-0 transform -translate-x-1/2 -translate-y-1/2"
+						className="absolute bg-white/10 backdrop-blur-sm rounded-full z-0"
 						initial={false}
+						animate={{
+							width: bgIndicatorBounds.width,
+							height: bgIndicatorBounds.height,
+							left: bgIndicatorBounds.left,
+							top: bgIndicatorBounds.top,
+							scale: bgIndicatorBounds.active ? 1 : 0,
+							opacity: bgIndicatorBounds.active ? 1 : 0,
+						}}
 						style={{
-							opacity: bgIndicatorBounds.width === 0 ? 0 : 1,
 							boxShadow:
 								"0 4px 16px rgba(255,255,255,0.1), inset 0 1px 0 rgba(255,255,255,0.2)",
+							transformOrigin: "center center",
 						}}
 						transition={{
 							type: "spring",
 							stiffness: 380,
 							damping: 30,
-						}}
-						animate={{
-							left: bgIndicatorBounds.left + bgIndicatorBounds.width / 2,
-							top: bgIndicatorBounds.top + bgIndicatorBounds.height / 2,
-							width: bgIndicatorBounds.width,
-							height: bgIndicatorBounds.height,
 						}}
 					/>
 
