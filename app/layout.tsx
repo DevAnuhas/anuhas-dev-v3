@@ -6,11 +6,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: {
-		default: "Fullstack Developer | AnuhasDev",
+		default: "Full-Stack Developer | AnuhasDev",
 		template: "%s | AnuhasDev",
 	},
 	description:
-		"Anuhas Dissanayake - Fullstack developer skilled in Next.js, TypeScript, and AI-driven solutions. Explore my innovative projects, technical expertise, and insightful blogs at anuhas.dev.",
+		"Anuhas Dissanayake - Full-Stack Developer skilled in Next.js, TypeScript, and AI-driven solutions. Explore my innovative projects, technical expertise, and insightful blogs at anuhas.dev.",
 	keywords: [
 		"Anuhas",
 		"Anuhas Dissanayake",

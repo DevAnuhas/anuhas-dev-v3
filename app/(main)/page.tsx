@@ -1,7 +1,9 @@
-export default function Home() {
+import HeroSection from "@/components/HeroSection";
+
+export default function HomePage() {
 	return (
-		<div className="min-h-screen flex flex-col items-center justify-center gap-4 text-center">
-			<h1 className="heading">Hello World</h1>
-		</div>
+		<>
+			<HeroSection />
+		</>
 	);
 }

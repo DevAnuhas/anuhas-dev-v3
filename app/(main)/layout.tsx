@@ -6,9 +6,9 @@ export default function MainLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<>
+		<main className="relative min-h-screen">
 			<Navbar />
 			{children}
-		</>
+		</main>
 	);
 }
