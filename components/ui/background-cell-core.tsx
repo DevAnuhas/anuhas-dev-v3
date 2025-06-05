@@ -47,7 +47,7 @@ const Cell = ({
 				whileHover={{ opacity: [0, 1, 0.5] }}
 				transition={{ duration: 0.5, ease: "backOut" }}
 				animate={controls}
-				className="bg-[rgba(255,184,122,0.3)] h-20 w-20"
+				className="bg-[rgba(255,184,122,0.3)] h-16 w-16 md:h-20 md:w-20"
 			></motion.div>
 		</div>
 	);
@@ -132,7 +132,7 @@ export const BackgroundCellCore = () => {
 						WebkitMaskRepeat: "no-repeat",
 					}}
 				>
-					<Pattern cellClassName="border-orange-300 relative z-[100]" />
+					<Pattern cellClassName="hidden lg:block border-orange-300 relative z-[100]" />
 				</div>
 				<Pattern className="opacity-[0.2]" cellClassName="border-neutral-700" />
 			</div>

@@ -53,7 +53,7 @@ export function Navbar() {
 	};
 
 	return (
-		<nav className="fixed top-6 left-0 right-0 z-50 flex justify-center">
+		<nav className="fixed top-6 left-0 right-0 z-100 flex justify-center">
 			<div
 				className="glass rounded-full px-2 py-2"
 				onMouseLeave={handleMouseLeave}

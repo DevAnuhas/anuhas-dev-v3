@@ -51,7 +51,7 @@ export const TextGenerateEffect = ({
 						<motion.span
 							key={idx}
 							className={`inline-block bg-clip-text text-transparent bg-gradient-to-b ${
-								idx > 0
+								idx < 1
 									? "from-white to-neutral-500"
 									: "from-primary to-orange-400/50"
 							}`}
@@ -68,9 +68,7 @@ export const TextGenerateEffect = ({
 	return (
 		<div className={cn("font-bold", className)}>
 			<div className="my-4">
-				<div className="dark:text-white text-black leading-20 tracking-wide">
-					{renderWords()}
-				</div>
+				<div>{renderWords()}</div>
 			</div>
 		</div>
 	);
