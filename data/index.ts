@@ -70,3 +70,71 @@ export const gridItems = [
 		spareImg: "",
 	},
 ];
+
+export const allProjects = [
+	{
+		id: 1,
+		slug: "staygenius",
+		title: "StayGenius",
+		shortDescription:
+			"AI-Powered Hotel Discovery Platform with intelligent recommendations and seamless booking experience.",
+		thumbnail: "/placeholder.svg?height=300&width=500",
+		techStack: ["Next.js", "TypeScript", "OpenAI", "MongoDB"],
+		category: "AI/ML",
+		githubUrl: "https://github.com/DevAnuhas/staygenius",
+		liveUrl: "https://staygenius.vercel.app",
+		featured: true,
+	},
+	{
+		id: 2,
+		slug: "travel-habarana",
+		title: "Travel Habarana",
+		shortDescription:
+			"Safari Booking Application for managing safari and village tour bookings in Sri Lanka.",
+		thumbnail: "/placeholder.svg?height=300&width=500",
+		techStack: ["Next.js", "TypeScript", "MongoDB", "TailwindCSS"],
+		category: "Full-Stack",
+		githubUrl: "https://github.com/DevAnuhas/travel-habarana",
+		liveUrl: undefined,
+		featured: true,
+	},
+	{
+		id: 3,
+		slug: "portfolio-v2",
+		title: "Portfolio Website v2",
+		shortDescription:
+			"Previous iteration of my portfolio built with React and styled-components.",
+		thumbnail: "/placeholder.svg?height=300&width=500",
+		techStack: ["React", "TypeScript", "TailwindCSS"],
+		category: "Frontend",
+		githubUrl: "https://github.com/DevAnuhas/portfolio-v2",
+		liveUrl: undefined,
+		featured: false,
+	},
+	{
+		id: 4,
+		slug: "task-manager",
+		title: "Task Management System",
+		shortDescription:
+			"Full-stack task management application with team collaboration features.",
+		thumbnail: "/placeholder.svg?height=300&width=500",
+		techStack: ["Next.js", "PostgreSQL", "Prisma", "TailwindCSS"],
+		category: "Full-Stack",
+		githubUrl: "https://github.com/DevAnuhas/task-manager",
+		liveUrl: undefined,
+		featured: false,
+	},
+	{
+		id: 5,
+		slug: "cloud-deployment-pipeline",
+		title: "Cloud Deployment Pipeline",
+		shortDescription:
+			"Automated CI/CD pipeline for deploying containerized applications to cloud platforms.",
+		thumbnail: "/placeholder.svg?height=300&width=500",
+		techStack: ["Docker", "Kubernetes", "GitHub Actions", "AWS"],
+		category: "DevOps",
+		githubUrl: "https://github.com/DevAnuhas/cloud-deployment",
+		liveUrl: undefined,
+		featured: false,
+	},
+];
