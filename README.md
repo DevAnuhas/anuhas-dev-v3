@@ -39,7 +39,8 @@ A modern, interactive full-stack portfolio website showcasing projects, experien
 - **Next.js 15** - React framework with App Router
 - **TypeScript** - Type-safe development
 - **TailwindCSS** - Utility-first CSS framework
-- **Framer Motion** - Smooth animations
+- **Shadcn UI** - Modern component library
+- **Framer Motion** - Smooth animations and transitions
 - **Three.js** - 3D globe visualization
 - **React Icons** - Lightweight icon library
 
