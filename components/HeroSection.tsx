@@ -24,7 +24,7 @@ const socialLinks = [
 
 export default function HeroSection() {
 	return (
-		<section className="px-8 md:pt-24 pt-16 md:pb-12 pb-8 relative flex justify-center items-center">
+		<section className="px-8 md:pt-24 pt-16 pb-8 relative flex justify-center items-center">
 			<div className="container max-w-5xl">
 				<BackgroundCellCore />
 				<div>
@@ -95,7 +95,7 @@ export default function HeroSection() {
 					{/* Right Column - Image */}
 					<div className="flex justify-center lg:justify-end relative -top-25 -right-12 lg:inset-0 z-50 pointer-events-none select-none">
 						<Image
-							src="/images/anuhas-headshot.png"
+							src="/anuhas-headshot.png"
 							alt="Anuhas Dissanayake - Full-Stack Developer"
 							width={500}
 							height={400}

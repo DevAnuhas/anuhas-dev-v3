@@ -10,13 +10,7 @@ import {
 } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { useRef, useState, useEffect } from "react";
-
-const navItems = [
-	{ href: "/", label: "About" },
-	{ href: "/projects", label: "Projects" },
-	{ href: "/blog", label: "Blog" },
-	{ href: "/contact", label: "Contact" },
-];
+import { navItems } from "@/data/index";
 
 export function Navbar() {
 	const pathname = usePathname();

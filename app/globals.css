@@ -111,7 +111,15 @@
 
 @theme inline {
 	--animate-wiggle: wiggle 1s ease-in-out infinite;
+	--animate-infinite-scroll: infinite-scroll 5s linear infinite;
+	--animate-infinite-scroll-reverse: infinite-scroll-reverse 5s linear infinite;
+	--animate-first: first 10s linear infinite;
+	--animate-second: second 15s linear infinite;
+	--animate-third: third 20s linear infinite;
+	--animate-fourth: fourth 25s linear infinite;
+	--animate-fifth: fifth 30s linear infinite;
 }
+
 @keyframes wiggle {
 	0%,
 	100% {
@@ -119,6 +127,95 @@
 	}
 	50% {
 		transform: rotate(6deg);
+	}
+}
+
+@keyframes infinite-scroll {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(calc(-100% / 3));
+	}
+}
+
+@keyframes infinite-scroll-reverse {
+	0% {
+		transform: translateY(calc(-100% / 3));
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes first {
+	0% {
+		transform: translate(0%, 0%) rotate(0deg);
+	}
+	33% {
+		transform: translate(5%, 5%) rotate(120deg);
+	}
+	66% {
+		transform: translate(-5%, 10%) rotate(240deg);
+	}
+	100% {
+		transform: translate(0%, 0%) rotate(360deg);
+	}
+}
+@keyframes second {
+	0% {
+		transform: translate(0%, 0%) rotate(0deg);
+	}
+	33% {
+		transform: translate(-10%, -5%) rotate(-110deg);
+	}
+	66% {
+		transform: translate(10%, -10%) rotate(-240deg);
+	}
+	100% {
+		transform: translate(0%, 0%) rotate(-360deg);
+	}
+}
+@keyframes third {
+	0% {
+		transform: translate(0%, 0%) rotate(0deg);
+	}
+	33% {
+		transform: translate(-5%, 10%) rotate(130deg);
+	}
+	66% {
+		transform: translate(-10%, -10%) rotate(260deg);
+	}
+	100% {
+		transform: translate(0%, 0%) rotate(360deg);
+	}
+}
+@keyframes fourth {
+	0% {
+		transform: translate(0%, 0%) rotate(0deg);
+	}
+	33% {
+		transform: translate(10%, 5%) rotate(-120deg);
+	}
+	66% {
+		transform: translate(5%, -5%) rotate(-240deg);
+	}
+	100% {
+		transform: translate(0%, 0%) rotate(-360deg);
+	}
+}
+@keyframes fifth {
+	0% {
+		transform: translate(0%, 0%) rotate(0deg);
+	}
+	33% {
+		transform: translate(-5%, -10%) rotate(140deg);
+	}
+	66% {
+		transform: translate(5%, 5%) rotate(280deg);
+	}
+	100% {
+		transform: translate(0%, 0%) rotate(360deg);
 	}
 }
 
