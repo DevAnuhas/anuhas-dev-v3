@@ -92,26 +92,26 @@ Make sure you have the following prerequisites:
 
 3. **Set environment variables:**
 
-Create a `.env.local` file in the project directory and add the following environment variables:
+   Create a `.env.local` file in the project directory and add the following environment variables:
 
-    ```env
-    # Database
-    MONGODB_URI=your_mongodb_connection_string
+   ```env
+   # Database
+   MONGODB_URI=your_mongodb_connection_string
 
-    # Authentication
-    NEXTAUTH_SECRET=your_nextauth_secret
-    GITHUB_CLIENT_ID=your_github_oauth_client_id
-    GITHUB_CLIENT_SECRET=your_github_oauth_client_secret
-    ADMIN_GITHUB_ID=your_github_username
+   # Authentication
+   NEXTAUTH_SECRET=your_nextauth_secret
+   GITHUB_CLIENT_ID=your_github_oauth_client_id
+   GITHUB_CLIENT_SECRET=your_github_oauth_client_secret
+   ADMIN_GITHUB_ID=your_github_username
 
-    # Cloudinary
-    CLOUDINARY_CLOUD_NAME=your_cloud_name
-    CLOUDINARY_API_KEY=your_api_key
-    CLOUDINARY_API_SECRET=your_api_secret
+   # Cloudinary
+   CLOUDINARY_CLOUD_NAME=your_cloud_name
+   CLOUDINARY_API_KEY=your_api_key
+   CLOUDINARY_API_SECRET=your_api_secret
 
-    # Notion
-    NOTION_API_KEY=your_notion_api_key
-    ```
+   # Notion
+   NOTION_API_KEY=your_notion_api_key
+   ```
 
 4. **Run the project:**
 
