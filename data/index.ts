@@ -139,6 +139,27 @@ export const allProjects = [
 	},
 ];
 
+export const certifications = [
+	{
+		id: 1,
+		title: "AI-Driven Fullstack Developer Professional Certification",
+		provider: "STEM Link",
+		completedDate: "May 2025",
+		image:
+			"https://res.cloudinary.com/travelhabarana/image/upload/v1749295147/STEM_Link_AIDF_Anuhas_cvo8lz.jpg",
+		url: "https://stemlink.online/certificates/cmaid1grb0001wppcvfyokqzf",
+	},
+	{
+		id: 2,
+		title: "The Complete Full-Stack Web Development Bootcamp",
+		provider: "Udemy",
+		completedDate: "March 2025",
+		image:
+			"https://res.cloudinary.com/travelhabarana/image/upload/v1749295150/UC-55b7f71a-b6b7-4391-a284-1be857482c35_1_coqjrn.jpg",
+		url: "https://ude.my/UC-55b7f71a-b6b7-4391-a284-1be857482c35",
+	},
+];
+
 export const testimonials = [
 	{
 		quote:
