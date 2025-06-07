@@ -4,23 +4,9 @@ import { Spotlight } from "@/components/ui/spotlight";
 import { BackgroundCellCore } from "@/components/ui/background-cell-core";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { Button } from "@/components/ui/button";
-import { FaGithub, FaLinkedinIn, FaThreads } from "react-icons/fa6";
 import { HiOutlineSparkles } from "react-icons/hi2";
 import { PiHandWaving } from "react-icons/pi";
-
-const socialLinks = [
-	{ href: "https://github.com/DevAnuhas", icon: FaGithub, label: "GitHub" },
-	{
-		href: "https://linkedin.com/in/profile-anuhas",
-		icon: FaLinkedinIn,
-		label: "LinkedIn",
-	},
-	{
-		href: "https://www.threads.net/@im_anuhas",
-		icon: FaThreads,
-		label: "Threads",
-	},
-];
+import { socialLinks } from "@/data";
 
 export default function HeroSection() {
 	return (

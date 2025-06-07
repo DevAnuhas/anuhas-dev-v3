@@ -12,7 +12,7 @@ import { cn } from "@/lib/utils";
 import { useRef, useState, useEffect } from "react";
 import { navItems } from "@/data/index";
 
-export function Navbar() {
+export default function Navbar() {
 	const pathname = usePathname();
 	const { scrollYProgress } = useScroll();
 	const itemsRef = useRef<(HTMLLIElement | null)[]>([]);

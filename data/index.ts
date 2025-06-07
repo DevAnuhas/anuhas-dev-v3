@@ -1,3 +1,23 @@
+import { FaGithub, FaLinkedinIn, FaThreads } from "react-icons/fa6";
+
+export const socialLinks = [
+	{
+		href: "https://github.com/DevAnuhas",
+		icon: FaGithub,
+		label: "GitHub",
+	},
+	{
+		href: "https://linkedin.com/in/profile-anuhas",
+		icon: FaLinkedinIn,
+		label: "LinkedIn",
+	},
+	{
+		href: "https://www.threads.net/@im_anuhas",
+		icon: FaThreads,
+		label: "Threads",
+	},
+];
+
 export const navItems = [
 	{ href: "/", label: "About" },
 	{ href: "/projects", label: "Projects" },

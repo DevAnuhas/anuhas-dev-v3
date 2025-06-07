@@ -1,9 +1,10 @@
-import BentoGridSection from "@/components/BentoGridSection";
-import CertificationsSection from "@/components/CertificationsSection";
-import ExperienceSection from "@/components/ExperienceSection";
 import HeroSection from "@/components/HeroSection";
+import BentoGridSection from "@/components/BentoGridSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import ExperienceSection from "@/components/ExperienceSection";
+import CertificationsSection from "@/components/CertificationsSection";
+import CTASection from "@/components/CTASection";
 
 export default function HomePage() {
 	return (
@@ -14,6 +15,7 @@ export default function HomePage() {
 			<TestimonialsSection />
 			<ExperienceSection />
 			<CertificationsSection />
+			<CTASection />
 		</>
 	);
 }

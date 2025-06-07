@@ -1,4 +1,5 @@
-import { Navbar } from "@/components/layout/navbar";
+import Navbar from "@/components/layout/navbar";
+import Footer from "@/components/layout/footer";
 
 export default function MainLayout({
 	children,
@@ -9,6 +10,7 @@ export default function MainLayout({
 		<main className="relative min-h-screen">
 			<Navbar />
 			{children}
+			<Footer />
 		</main>
 	);
 }

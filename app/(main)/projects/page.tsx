@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/motion-wrapper";
 import ProjectCard from "@/components/ProjectCard";
 import { allProjects } from "@/data/index";
+import CTASection from "@/components/CTASection";
 
 const categories = Array.from(new Set(allProjects.map((p) => p.category)));
 
@@ -126,6 +127,7 @@ export default function ProjectsPage() {
 					)}
 				</div>
 			</div>
+			<CTASection />
 		</main>
 	);
 }
