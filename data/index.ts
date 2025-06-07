@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedinIn, FaThreads } from "react-icons/fa6";
+import { LuMail, LuMapPin } from "react-icons/lu";
 
 export const socialLinks = [
 	{
@@ -15,6 +16,21 @@ export const socialLinks = [
 		href: "https://www.threads.net/@im_anuhas",
 		icon: FaThreads,
 		label: "Threads",
+	},
+];
+
+export const contactInfo = [
+	{
+		icon: LuMail,
+		label: "Email",
+		value: "contact@anuhas.dev",
+		href: "mailto:contact@anuhas.dev",
+	},
+	{
+		icon: LuMapPin,
+		label: "Location",
+		value: "Colombo, Sri Lanka",
+		href: null,
 	},
 ];
 

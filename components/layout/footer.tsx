@@ -4,9 +4,9 @@ import { socialLinks } from "@/data";
 
 export default function Footer() {
 	return (
-		<footer className="w-full px-8 pt-20 pb-10 relative">
+		<footer className="w-full px-8 md:pt-20 pt-10 pb-10 relative">
 			{/* Background grid */}
-			<div className="w-full absolute bottom-0 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,transparent_50%,black)]">
+			<div className="w-full absolute bottom-0 pointer-events-none md:[mask-image:linear-gradient(to_bottom,transparent,transparent_50%,black)] [mask-image:linear-gradient(to_bottom,transparent,black)]">
 				<Image
 					src="/footer-grid.svg"
 					alt="grid"
