@@ -24,7 +24,7 @@ const socialLinks = [
 
 export default function HeroSection() {
 	return (
-		<section className="px-8 md:pt-24 pt-16 pb-8 relative flex justify-center items-center">
+		<section className="px-8 md:pt-24 pt-16 md:pb-12 relative flex justify-center items-center">
 			<div className="container max-w-5xl">
 				<BackgroundCellCore />
 				<div>
@@ -41,7 +41,7 @@ export default function HeroSection() {
 						fill="rgb(255 247 237)"
 					/>
 				</div>
-				<div className="my-20 grid lg:grid-cols-2 lg:gap-12 gap-6 items-center">
+				<div className="mt-16 mb-8 md:my-20 grid lg:grid-cols-2 lg:gap-12 gap-6 items-center">
 					{/* Left Column - Content */}
 					<div className="flex justify-center items-center lg:justify-end z-50 pointer-events-none">
 						<div className="max-w-sm md:max-w-[50vw] lg:max-w-[60vw] flex flex-col justify-center md:space-y-6 space-y-4">

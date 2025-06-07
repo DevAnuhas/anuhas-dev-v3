@@ -1,5 +1,6 @@
 import BentoGridSection from "@/components/BentoGridSection";
-import { CertificationsSection } from "@/components/CertificationsSection";
+import CertificationsSection from "@/components/CertificationsSection";
+import ExperienceSection from "@/components/ExperienceSection";
 import HeroSection from "@/components/HeroSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
@@ -11,6 +12,7 @@ export default function HomePage() {
 			<BentoGridSection />
 			<ProjectsSection />
 			<TestimonialsSection />
+			<ExperienceSection />
 			<CertificationsSection />
 		</>
 	);

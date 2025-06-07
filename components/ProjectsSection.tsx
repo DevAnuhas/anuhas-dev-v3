@@ -15,7 +15,7 @@ export default function ProjectsSection() {
 		<section className="py-20 px-8">
 			<div className="container max-w-6xl mx-auto">
 				<FadeInUp className="text-center mb-16">
-					<h2 className="text-4xl md:text-5xl font-bold mb-4">
+					<h2 className="text-4xl md:text-5xl leading-snug font-bold mb-4">
 						A small selection of{" "}
 						<span className="text-primary">recent projects</span>
 					</h2>

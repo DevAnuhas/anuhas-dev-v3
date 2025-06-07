@@ -12,7 +12,7 @@ export default function TestimonialsSection() {
 	return (
 		<section className="py-20">
 			<FadeInUp className="text-center mb-16">
-				<h2 className="text-4xl md:text-5xl font-bold mb-4">
+				<h2 className="text-4xl md:text-5xl leading-snug font-bold mb-4">
 					Kind words from{" "}
 					<span className="text-primary">satisfied clients</span>
 				</h2>

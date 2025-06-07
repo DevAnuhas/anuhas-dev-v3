@@ -11,13 +11,13 @@ import {
 } from "@/components/ui/motion-wrapper";
 import { certifications } from "@/data";
 
-export function CertificationsSection() {
+export default function CertificationsSection() {
 	return (
 		<section className="py-20 px-6">
 			<div className="container max-w-4xl mx-auto">
 				<FadeInUp className="text-center mb-16">
-					<h2 className="text-4xl md:text-5xl font-bold mb-4">
-						Professional certifications and{" "}
+					<h2 className="text-4xl md:text-5xl leading-snug font-bold mb-4">
+						Professional certifications &{" "}
 						<span className="text-primary">continuous learning</span>
 					</h2>
 				</FadeInUp>
@@ -36,7 +36,7 @@ export function CertificationsSection() {
 											alt={cert.title}
 											width={300}
 											height={200}
-											className="w-full h-72 sm:h-64 md:h-72 object-cover"
+											className="w-full h-64 md:h-72 object-cover"
 										/>
 									</motion.div>
 									<div className="absolute top-4 right-4">
