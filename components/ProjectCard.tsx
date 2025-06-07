@@ -43,6 +43,8 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { LuExternalLink, LuGithub } from "react-icons/lu";
 
+import { Project } from "@/types";
+
 const techIcons: Record<string, React.ComponentType<{ className?: string }>> = {
 	HTML5: SiHtml5,
 	CSS3: SiCss3,
@@ -76,17 +78,6 @@ const techIcons: Record<string, React.ComponentType<{ className?: string }>> = {
 	Kubernetes: SiKubernetes,
 	Prisma: SiPrisma,
 };
-
-interface Project {
-	title: string;
-	slug: string;
-	thumbnail?: string;
-	shortDescription: string;
-	techStack: string[];
-	featured?: boolean;
-	githubUrl: string;
-	liveUrl?: string;
-}
 
 export default function ProjectCard({ project }: { project: Project }) {
 	return (

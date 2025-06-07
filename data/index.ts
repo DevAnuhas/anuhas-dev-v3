@@ -262,3 +262,45 @@ export const workExperience = [
 		logo: "",
 	},
 ];
+
+export const blogPosts = [
+	{
+		id: 1,
+		slug: "building-ai-powered-applications",
+		title: "Building AI-Powered Applications with Next.js and OpenAI",
+		excerpt:
+			"Learn how to integrate AI capabilities into your Next.js applications using OpenAI's API. We'll cover everything from setup to deployment.",
+		content: "Full blog post content would go here...",
+		publishedAt: "2024-03-15",
+		readTime: "8 min read",
+		category: "AI Development",
+		tags: ["Next.js", "OpenAI", "AI", "TypeScript"],
+		featured: true,
+	},
+	{
+		id: 2,
+		slug: "modern-web-development-stack",
+		title: "The Modern Web Development Stack: Next.js, TypeScript, and Beyond",
+		excerpt:
+			"Exploring the tools and technologies that make up a modern web development workflow in 2024.",
+		content: "Full blog post content would go here...",
+		publishedAt: "2024-02-28",
+		readTime: "6 min read",
+		category: "Web Development",
+		tags: ["Next.js", "TypeScript", "React", "TailwindCSS"],
+		featured: false,
+	},
+	{
+		id: 3,
+		slug: "optimizing-performance-nextjs",
+		title: "Performance Optimization Techniques for Next.js Applications",
+		excerpt:
+			"Deep dive into various performance optimization strategies for Next.js applications, from image optimization to code splitting.",
+		content: "Full blog post content would go here...",
+		publishedAt: "2024-02-10",
+		readTime: "10 min read",
+		category: "Performance",
+		tags: ["Next.js", "Performance", "Optimization"],
+		featured: false,
+	},
+];
