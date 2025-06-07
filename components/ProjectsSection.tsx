@@ -16,8 +16,8 @@ export default function ProjectsSection() {
 			<div className="container max-w-6xl mx-auto">
 				<FadeInUp className="text-center mb-16">
 					<h2 className="text-4xl md:text-5xl font-bold mb-4">
-						A Small Selection of{" "}
-						<span className="text-primary">Recent Projects</span>
+						A small selection of{" "}
+						<span className="text-primary">recent projects</span>
 					</h2>
 				</FadeInUp>
 

@@ -18,7 +18,7 @@ export default function TestimonialsSection() {
 				</h2>
 			</FadeInUp>
 
-			<StaggerContainer className="flex flex-col items-center mb-12">
+			<StaggerContainer className="flex flex-col items-center">
 				<StaggerItem className="rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
 					<InfiniteMovingCards
 						items={testimonials}

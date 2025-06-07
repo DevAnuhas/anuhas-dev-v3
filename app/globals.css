@@ -111,8 +111,7 @@
 
 @theme inline {
 	--animate-wiggle: wiggle 1s ease-in-out infinite;
-	--animate-scroll: infinite-scroll var(--animation-duration, 40s)
-		var(--animation-direction, forwards) linear infinite;
+	--animate-scroll: scroll 40s forwards linear infinite;
 	--animate-infinite-scroll: infinite-scroll 5s linear infinite;
 	--animate-infinite-scroll-reverse: infinite-scroll-reverse 5s linear infinite;
 	--animate-first: first 10s linear infinite;
@@ -137,25 +136,25 @@
 		transform: translateX(0);
 	}
 	100% {
-		transform: translateX(calc(-100% / 2));
+		transform: translateX(calc(-50%));
 	}
 }
 
 @keyframes infinite-scroll {
 	0% {
-		transform: translateX(0);
+		transform: translateY(0);
 	}
 	100% {
-		transform: translateX(calc(-50%));
+		transform: translateY(calc(-100% / 3));
 	}
 }
 
 @keyframes infinite-scroll-reverse {
 	0% {
-		transform: translateX(calc(-50%));
+		transform: translateY(calc(-100% / 3));
 	}
 	100% {
-		transform: translateX(0);
+		transform: translateY(0);
 	}
 }
 
@@ -237,27 +236,6 @@
 	100% {
 		transform: translate(0%, 0%) rotate(360deg);
 	}
-}
-
-/* Animation classes */
-.animate-scroll {
-	animation-name: fadeIn, infinite-scroll;
-	animation-duration: 1s, var(--animation-duration, 40s);
-	animation-timing-function: ease, linear;
-	animation-iteration-count: 1, infinite;
-	animation-fill-mode: forwards, none;
-	animation-direction: normal, var(--animation-direction, normal);
-	animation-delay: 0s, 1s;
-	opacity: 0;
-
-	/* For Safari and other webkit browsers */
-	-webkit-animation-name: fadeIn, infinite-scroll;
-	-webkit-animation-duration: 1s, var(--animation-duration, 40s);
-	-webkit-animation-timing-function: ease, linear;
-	-webkit-animation-iteration-count: 1, infinite;
-	-webkit-animation-fill-mode: forwards, none;
-	-webkit-animation-direction: normal, var(--animation-direction, normal);
-	-webkit-animation-delay: 0s, 1s;
 }
 
 /* Custom scrollbar */
