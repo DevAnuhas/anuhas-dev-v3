@@ -176,3 +176,53 @@ export const testimonials = [
 		img: null,
 	},
 ];
+
+export const education = [
+	{
+		id: 1,
+		institution: "Cardiff Metropolitan University",
+		degree: "BSc (Hons) in Software Engineering",
+		duration: "2025 – 2026",
+		startDate: "2025-05",
+		endDate: "2026-12",
+		description:
+			"Pursuing a software engineering degree with focus on web development, data science, and artificial intelligence.",
+		logo: "",
+	},
+	{
+		id: 2,
+		institution: "Achievers Internation Campus",
+		degree: "Pearson HND in Software Engineering",
+		duration: "2023 – 2024",
+		startDate: "2023-06",
+		endDate: "2024-11",
+		description:
+			"Completed the Pearson BTEC Higher National Diploma in Software Engineering.",
+		logo: "",
+	},
+];
+
+export const workExperience = [
+	{
+		id: 1,
+		company: "Company Name",
+		position: "Intern Software Engineer - Full-Stack",
+		duration: "Jun 2025 – Present",
+		startDate: "2025-06",
+		endDate: "Present",
+		description:
+			"Developed AI-driven full-stack applications using Next.js, TypeScript, and modern web technologies. Specialized in creating scalable solutions with focus on user experience.",
+		logo: "",
+	},
+	{
+		id: 2,
+		company: "Full-Stack Development",
+		position: "Freelancer",
+		duration: "2023 – Present",
+		startDate: "2023",
+		endDate: "Present",
+		description:
+			"Built custom web applications using Next.js, TypeScript, and modern web technologies for various clients. Delivered projects ranging from management platforms to booking systems.",
+		logo: "",
+	},
+];
