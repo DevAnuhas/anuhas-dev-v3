@@ -43,7 +43,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { LuExternalLink, LuGithub } from "react-icons/lu";
 
-import { Project } from "@/types";
+import type { Project } from "@/types";
 
 const techIcons: Record<string, React.ComponentType<{ className?: string }>> = {
 	HTML5: SiHtml5,

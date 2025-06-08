@@ -115,10 +115,26 @@ export const allProjects = [
 		shortDescription:
 			"AI-Powered Hotel Discovery Platform with intelligent recommendations and seamless booking experience.",
 		thumbnail: "/placeholder.svg?height=300&width=500",
-		techStack: ["Next.js", "TypeScript", "OpenAI", "MongoDB"],
+		features: [
+			"AI-powered hotel recommendations based on user preferences",
+			"Real-time price comparison across multiple booking platforms",
+			"Intelligent search with natural language processing",
+			"Personalized user dashboard with booking history",
+			"Advanced filtering system with location-based services",
+			"Responsive design optimized for all devices",
+		],
+		techStack: [
+			"Next.js",
+			"TypeScript",
+			"OpenAI",
+			"MongoDB",
+			"TailwindCSS",
+			"Vercel",
+		],
 		category: "AI/ML",
 		githubUrl: "https://github.com/DevAnuhas/staygenius",
 		liveUrl: "https://staygenius.vercel.app",
+		completedDate: "2025-03-15",
 		featured: true,
 	},
 	{
@@ -128,10 +144,26 @@ export const allProjects = [
 		shortDescription:
 			"Safari Booking Application for managing safari and village tour bookings in Sri Lanka.",
 		thumbnail: "/placeholder.svg?height=300&width=500",
-		techStack: ["Next.js", "TypeScript", "MongoDB", "TailwindCSS"],
+		features: [
+			"Safari and village tour package browsing with detailed information",
+			"Inquiry submission system with automated email notifications",
+			"Secure admin panel for package and inquiry management",
+			"JWT-based authentication system for administrators",
+			"Incremental Static Regeneration (ISR) for optimal performance",
+			"SEO optimization with dynamic metadata generation",
+		],
+		techStack: [
+			"Next.js",
+			"TypeScript",
+			"MongoDB",
+			"TailwindCSS",
+			"Shadcn UI",
+			"Auth.js",
+		],
 		category: "Full-Stack",
 		githubUrl: "https://github.com/DevAnuhas/travel-habarana",
-		liveUrl: undefined,
+		liveUrl: "https://travelhabarana.com",
+		completedDate: "2024-03-15",
 		featured: true,
 	},
 	{
@@ -145,6 +177,7 @@ export const allProjects = [
 		category: "Frontend",
 		githubUrl: "https://github.com/DevAnuhas/portfolio-v2",
 		liveUrl: undefined,
+		completedDate: "2025-03-15",
 		featured: false,
 	},
 	{
@@ -158,6 +191,7 @@ export const allProjects = [
 		category: "Full-Stack",
 		githubUrl: "https://github.com/DevAnuhas/task-manager",
 		liveUrl: undefined,
+		completedDate: "2025-03-15",
 		featured: false,
 	},
 	{
@@ -171,6 +205,7 @@ export const allProjects = [
 		category: "DevOps",
 		githubUrl: "https://github.com/DevAnuhas/cloud-deployment",
 		liveUrl: undefined,
+		completedDate: "2025-03-15",
 		featured: false,
 	},
 ];

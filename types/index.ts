@@ -3,10 +3,12 @@ export interface Project {
 	slug: string;
 	thumbnail?: string;
 	shortDescription: string;
+	features?: string[];
 	techStack: string[];
-	featured?: boolean;
 	githubUrl: string;
 	liveUrl?: string;
+	completedDate?: string;
+	featured?: boolean;
 }
 
 export interface Post {

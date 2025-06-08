@@ -8,7 +8,7 @@ import {
 	StaggerItem,
 } from "@/components/ui/motion-wrapper";
 import ProjectCard from "@/components/ProjectCard";
-import { allProjects } from "@/data/index";
+import { allProjects } from "@/data";
 
 export default function ProjectsSection() {
 	return (
