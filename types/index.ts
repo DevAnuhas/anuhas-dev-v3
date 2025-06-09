@@ -11,15 +11,21 @@ export interface Project {
 	featured?: boolean;
 }
 
-export interface Post {
-	id: number;
+export interface BlogPost {
+	id: string;
 	slug: string;
 	title: string;
-	content: string;
 	excerpt: string;
+	publishedAt: string;
+	content: string;
 	tags: string[];
 	category: string;
-	publishedAt: string;
 	readTime: string;
 	featured: boolean;
+	notionPageId: string;
+	coverImage: string;
+	author: {
+		name: string;
+		avatar: string;
+	};
 }

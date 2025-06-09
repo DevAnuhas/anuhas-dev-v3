@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { LuCalendar, LuClock } from "react-icons/lu";
 
-import { Post } from "@/types";
+import { BlogPost } from "@/types";
 
-function BlogCard({ post }: { post: Post }) {
+function BlogCard({ post }: { post: BlogPost }) {
 	return (
 		<div className="glass glass-hover rounded-xl p-6 h-full flex flex-col">
 			<div className="flex-1">
